@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Order extends Model
 {
     protected $fillable = [
-        'customer_id'
+        'customer_id' , 'delivery_cost'
     ];
 
     public function Pizza()

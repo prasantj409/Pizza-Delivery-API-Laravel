@@ -40,7 +40,8 @@ class PizzaHomeController extends Controller
             $customer->save();
 
             $order = new Order([
-                'customer_id' => $customer->id
+                'customer_id' => $customer->id,
+                'delivery_cost' => $request->has('delivery_cost') ? $request->input('delivery_cost') : 0
             ]);
 
             $order->save();
