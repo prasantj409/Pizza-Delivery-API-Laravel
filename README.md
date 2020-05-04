@@ -1,6 +1,15 @@
 # Pizza Delivery API Laravel
  Backend in Laravel
  
+ # Changed files:
+ PizzaDeliveryApi/app/Customer.php
+ PizzaDeliveryApi/app/Order.php
+ PizzaDeliveryApi/app/Pizza.php
+ 
+ PizzaDeliveryApi/app/Http/Controllers/PizzaHomeController.php
+ 
+ PizzaDeliveryApi/database/migrations/
+ 
  # Table Design
  
  # Pizza
